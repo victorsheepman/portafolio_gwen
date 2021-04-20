@@ -1,0 +1,127 @@
+//COLORES
+$Color-black:#16161A;
+$Color-grey-dark:#242629;
+$Color-gray-light:#72757E;
+$Color-green:#2CB67D;
+$Color-purple:#7F5AF0;
+$Color-white:#FFFFFE;
+$Color-grey:#94A1B2;
+$Color-blue:#5928E5;
+
+//Fuente
+$font: 'Arvo', serif;
+
+//Tipografia
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    margin: 0;
+    padding-top: 88px;
+}
+
+h1{
+    //styleName: Headline 1;
+    font-family: Arvo;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $Color-white;
+}
+h3{
+    //styleName: Headline 3;
+    font-family: Arvo;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+h2{
+    //styleName: Headline 2;
+    font-family: Arvo;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: $Color-white;
+}
+h4{
+    //styleName: Headline 4;
+    font-family: Arvo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+h5{
+    //styleName: Headline 5;
+    font-family: Arvo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;  
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.body_1{
+    //styleName: /Body 1/Regular;
+    font-family: Arvo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.body_1-bold{
+    @extend .body_1;
+    font-weight: 700;
+}
+.body_2{
+    //styleName: /Body 2/Regular;
+    font-family: Arvo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.body_2-bold{
+    @extend .body_2;
+    font-weight: 700;
+}
+.button{
+    //styleName: /BUTTON;
+    font-family: Arvo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+@mixin button ($width) {
+    width: $width;
+    height: 51px;
+    background-color: $Color-purple;
+    color: $Color-white;
+    border: unset;
+    outline: none;
+    border-radius: 4px;
+    transition: .3s ease all;
+}
+

@@ -1,0 +1,36 @@
+.header{
+    width: 100%;
+    height: 88px;
+    padding-left: 89px;
+    padding-right: 89px;
+    background-color: $Color-black;
+    color: $Color-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    a{
+        text-decoration: unset;
+        color: $Color-grey;
+        transition: .3s ease all;
+    }
+    &__nav{
+        width: 506px;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+        li{
+            list-style: none;
+            display: inline;    
+        }
+        a:hover{
+            color: $Color-white;
+        }
+    }
+    
+}
+
+.active{
+    background-color: $Color-white;
+}

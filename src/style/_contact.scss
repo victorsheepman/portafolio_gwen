@@ -1,0 +1,20 @@
+.contact{
+    width: 100%;
+    height: 544px;
+    background-color: $Color-black;
+    padding-left: 89px;
+    h2{
+        text-align: left;
+        margin-bottom: 80px;
+    }
+    a{  
+        
+        font-family: $font;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 76px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}

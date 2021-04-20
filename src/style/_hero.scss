@@ -1,0 +1,23 @@
+.hero{
+    width: 100%;
+    height: 660px;
+    background-color: $Color-black;
+    &__content{
+        width: 100%;
+        height: 100%;
+        padding-left: 89px;
+        padding-top: 80px;
+    }
+    p{
+        color: $Color-gray-light;
+        margin-top: 24px;
+    }
+    &__btn{
+        @include button(243px);
+        margin-top: 24px;
+        transition: .3s all ease;
+    }
+    &__btn:hover{
+            background-color: $Color-green;
+    }
+}
