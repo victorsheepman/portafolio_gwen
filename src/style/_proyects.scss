@@ -24,6 +24,11 @@
         width: 100%;
         height: 450px;
         background-color: $Color-white;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
     &__content{
         width: 100%;
@@ -38,18 +43,28 @@
         justify-content: space-between;
     }
     &__btn{
-        @include button(257px);
+        @include button(257px);  
+        a{
+            text-decoration: none;
+            color: $Color-white;
+        }
         &--dark{
             @extend .proyect__btn;
             background-color: $Color-black;
             border: 1px solid $Color-purple;
-            color: $Color-purple;
+            
+            a{
+                text-decoration: none;
+                color: $Color-purple;
+            }
+          
         }
         &--dark:hover{
             background-color: $Color-purple;
             color: $Color-white;
             border: none;
         }
+       
     }
     &__btn:hover{
         background-color: #2CB67D;
@@ -64,4 +79,11 @@
 }
 .Netnet:hover{
     background-color: #ff5251;
+}
+.Prince:hover{
+    background-color: #FF906D;
+}
+.Pets:hover{
+    background-color: #FEC7D7;
+
 }
