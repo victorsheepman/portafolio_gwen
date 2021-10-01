@@ -34,3 +34,15 @@
 .active{
     background-color: $Color-white;
 }
+@media (max-width: 760px) {
+    .header{
+        width: 360px;
+        min-width: 360px;
+        max-width: 760px;
+        height: 64px;
+        padding-left: 16px;
+        &__nav{
+            display: none;
+        }
+    }
+}

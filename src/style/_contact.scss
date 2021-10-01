@@ -18,3 +18,37 @@
         text-align: left;
     }
 }
+
+@media (max-width: 760px) {
+
+
+    .contact{
+        width: 360px;
+        min-width: 328px;
+        height: 285px;
+        padding-left: 16px;
+        h2{
+            text-align: left;
+            margin-bottom: 24px;
+            //styleName: Headline 4;
+            font-family: Arvo;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        a{  
+        
+            font-family: Arvo;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        } 
+    }
+}
