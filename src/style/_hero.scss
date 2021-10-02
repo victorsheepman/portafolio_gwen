@@ -16,6 +16,10 @@
         @include button(243px);
         margin-top: 24px;
         transition: .3s all ease;
+        a{
+            text-decoration: none;
+            color: $Color-white;
+        }
     }
     &__btn:hover{
             background-color: $Color-green;
