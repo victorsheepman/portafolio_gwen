@@ -12,7 +12,7 @@
     top: 0;
     a{
         text-decoration: unset;
-        color: $Color-grey;
+        color: $Color-white;
         transition: .3s ease all;
     }
     &__nav{
@@ -25,7 +25,7 @@
             display: inline;    
         }
         a:hover{
-            color: $Color-white;
+            color: $Color-orange;
         }
     }
     

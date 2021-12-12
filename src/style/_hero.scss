@@ -16,6 +16,7 @@
         @include button(243px);
         margin-top: 24px;
         transition: .3s all ease;
+        background-color: $Color-orange;
         a{
             text-decoration: none;
             color: $Color-white;
@@ -41,7 +42,7 @@ body{
         padding-left: 16px;
         padding-top: 50px;
         h1{
-            font-family: Arvo;
+            font-family: $font;
             font-size: 20px;
             font-style: normal;
             font-weight: 700;
