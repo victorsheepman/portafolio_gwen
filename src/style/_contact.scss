@@ -3,17 +3,14 @@
     height: 544px;
     background-color: $Color-black;
     padding-left: 89px;
-    h2{
-        text-align: left;
-        margin-bottom: 80px;
-    }
+   
     a{  
         
         font-family: $font;
-        font-size: 64px;
+        font-size: 3rem;
         font-style: normal;
         font-weight: 700;
-        line-height: 76px;
+        line-height:4.75rem;
         letter-spacing: 1px;
         text-align: left;
         color: $Color-orange;
@@ -24,7 +21,7 @@
 
 
     .contact{
-        width: 360px;
+        width:100%;
         min-width: 328px;
         height: 285px;
         padding-left: 16px;
@@ -43,7 +40,7 @@
         a{  
         
             font-family: $font;
-            font-size: 14px;
+            font-size: 1.75rem;
             font-style: normal;
             font-weight: 700;
             line-height: 26px;

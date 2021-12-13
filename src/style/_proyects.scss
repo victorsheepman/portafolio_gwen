@@ -69,6 +69,9 @@
     &__btn:hover{
         background-color: #2CB67D;
     }
+    @include tablet{
+        width: 100%;
+    }
 }
 
 .Amazonas:hover{
@@ -91,7 +94,7 @@
     .proyects{
         background-color: $Color-black;
         height: 2580px;
-        width: 360px;
+        width:100%;
         h2{
             margin-bottom: 40px;
             font-family:$font;
