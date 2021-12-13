@@ -3,17 +3,21 @@
     height: 544px;
     background-color: $Color-black;
     padding-left: 89px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
    
     a{  
         
         font-family: $font;
-        font-size: 3rem;
+        font-size: 4rem;
         font-style: normal;
         font-weight: 700;
         line-height:4.75rem;
         letter-spacing: 1px;
         text-align: left;
         color: $Color-orange;
+        margin-top: 8px;
     }
 }
 
